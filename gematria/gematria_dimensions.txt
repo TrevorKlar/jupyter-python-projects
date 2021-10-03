@@ -1,0 +1,6 @@
+page dimensions         5.25in x 7.25in
+total                   3.9 in x 6.35in
+top                     .45in
+bottom                  .45in
+outside                 .50in
+inside                  .85in

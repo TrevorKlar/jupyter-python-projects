@@ -1,0 +1,75 @@
+\documentclass[8pt, twoside]{extarticle}
+%\documentclass[letterpaper]{article}
+%\documentclass[a5paper]{article}
+
+%% Language and font encodings
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+
+
+%% Sets page size and margins
+\usepackage[paperheight=7.25in, paperwidth=5.25in, outer=.5in, inner=.85in, top=.45in, bottom=.45in]{geometry}
+%\usepackage[letterpaper,top=.75in,bottom=1in,left=1in,right=1in,marginparwidth=1.75cm]{geometry}
+%\usepackage[a5paper,top=1cm,bottom=1cm,left=1cm,right=1.5cm,marginparwidth=1.75cm]{geometry}
+
+\usepackage{graphicx}
+\usepackage{lipsum}
+\usepackage{longtable}
+\usepackage{multicol}
+\usepackage{supertabular,booktabs}
+%\graphicspath{../images}	  %%where to look for images
+
+\usepackage{calc}
+\setlength{\footskip}{\paperheight
+  -(1in+\voffset+\topmargin+\headheight+\headsep+\textheight)
+  -0.225in}
+
+\input{./latex/tskpreamble}
+\pgfplotsset{compat=1.13}
+
+%\newcommand{\T}{\mathcal{T}}
+%\newcommand{\B}{\mathcal{B}}
+
+%These commands are now in tskpreamble_nothms.tex, but are left as a comment here for reference.
+%\newcommand{\arbcup}[1]{\bigcup\limits_{\alpha\in\Gamma}#1_\alpha}
+%\newcommand{\arbcap}[1]{\bigcap\limits_{\alpha\in\Gamma}#1_\alpha}
+%\newcommand{\arbcoll}[1]{\{#1_\alpha\}_{\alpha\in\Gamma}}
+%\newcommand{\arbprod}[1]{\prod\limits_{\alpha\in\Gamma}#1_\alpha}
+%\newcommand{\finitecoll}[1]{#1_1, \ldots, #1_n}
+%\newcommand{\finitefuncts}[2]{#1(#2_1), \ldots, #1(#2_n)}
+%\newcommand{\abs}[1]{\left|#1\right|}
+%\newcommand{\norm}[1]{\left|\left|#1\right|\right|}
+
+\title{Bible Dictionary Terms}
+\author{Listed by gematria}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\noindent Elder Jarman,
+
+I hope you like this and are able to use it as a reference in the future. Hopefully, this will remind you that math is the language of the universe, and that Heavenly Father uses His creation to speak to us in mysterious ways.
+
+Trevor Klar, Seco Canyon Ward, 2018
+\section*{Alphabetical}
+
+
+
+\begin{multicols}{2}
+\input{bible_dictionary_short_gematria.tex}
+%\lipsum
+\end{multicols}
+
+
+\section*{Long Gematria}
+
+\begin{multicols}{2}
+%\begin{enumerate}
+\input{bible_dictionary_long_gematria.tex}
+%\end{enumerate}
+\end{multicols}
+
+\end{document}

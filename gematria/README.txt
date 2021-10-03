@@ -1,0 +1,1 @@
+Disclaimer: The author makes no claim of any meaning that can be derived from gematria, in fact the data here sort of supports the opposite idea. This was a fun programming project for a friend, just to see if I could.
